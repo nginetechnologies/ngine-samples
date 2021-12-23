@@ -1,0 +1,60 @@
+{
+    "guid": "{461BBB28-0A47-403D-8D35-E4E48AA89B75}",
+    "typeGuid": "37DEB13A-A642-4122-9880-3850F503D5FA",
+    "children": [
+        {
+            "typeGuid": "B2949DCF-7D3E-4AC7-962A-29685A44D92C",
+            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                "stages": [
+                    "BBA6AD40-E1EE-4F1E-BAF8-608FF9E7D77F"
+                ]
+            },
+            "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                "material_instance": "88239ac4-acdf-702c-a9be-ca994d863895"
+            },
+			"b2949dcf-7d3e-4ac7-962a-29685a44d92c": {
+				"Width": 2.5
+			},
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Road"
+                }
+            ]
+        },
+		{
+            "typeGuid": "F3A902A8-4814-4328-927C-2D43C721AC1E",
+			"de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+					-1.25, 0, 0
+				]
+            },
+			"f3a902a8-4814-4328-927c-2d43c721ac1e": {
+				"asset": "559f08d9-bda7-bec5-6212-808cd8ad1150"
+			},
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Left"
+                }
+            ]
+        },
+		{
+            "typeGuid": "F3A902A8-4814-4328-927C-2D43C721AC1E",
+			"de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+					1.25, 0, 0
+				]
+            },
+			"f3a902a8-4814-4328-927c-2d43c721ac1e": {
+				"asset": "559f08d9-bda7-bec5-6212-808cd8ad1150"
+			},
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Right"
+                }
+            ]
+        }
+    ]
+}

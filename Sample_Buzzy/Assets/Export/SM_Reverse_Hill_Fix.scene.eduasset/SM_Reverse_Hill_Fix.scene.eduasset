@@ -1,0 +1,91 @@
+{
+    "guid": "1bf91475-32b2-4717-e9ef-f5522b461b0a",
+    "source": "../SM_Reverse_Hill_Fix.fbx",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "dee60c3c-a6c4-085e-7275-032d511ab588",
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SM_Reverse_Hill_Fix"
+        }
+    ],
+    "children": [
+        {
+            "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+            "instanceGuid": "4ef28bbd-602f-5e62-2329-a3b4fb7ed570",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "SM_terrainPathHillEdge_Invert"
+                }
+            ],
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    8.4979248046875,
+                    3.9990234375,
+                    0.0
+                ],
+                "rotation": [
+                    0.000009334667993243784,
+                    4.071110039794573e-13,
+                    89.99998474121094
+                ],
+                "scale": [
+                    0.9999998807907105,
+                    0.9999998807907105,
+                    1.0
+                ]
+            },
+            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                "stages": [
+                    "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                ]
+            },
+            "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                "mesh": "35f60064-19b0-7893-bd46-3b9453575842",
+                "material_instance": "165313dd-5d8c-89ae-75ae-58e39caba261"
+            }
+        },
+        {
+            "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+            "instanceGuid": "540a81c8-0aff-5e5f-ff8a-1c860e67ad95",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "SM_terrainPathHillEdge_Invert.001"
+                }
+            ],
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    5.4986572265625,
+                    8.997802734375,
+                    0.0
+                ],
+                "rotation": [
+                    0.000009334667993243784,
+                    -4.071110039794573e-13,
+                    -89.99998474121094
+                ],
+                "scale": [
+                    0.9999998807907105,
+                    0.9999998807907105,
+                    1.0
+                ]
+            },
+            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                "stages": [
+                    "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                ]
+            },
+            "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                "mesh": "cdd259a8-85f7-0428-970b-de5e4243edb3",
+                "material_instance": "165313dd-5d8c-89ae-75ae-58e39caba261"
+            }
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "1bf91475-32b2-4717-e9ef-f5522b461b0a"
+    }
+}

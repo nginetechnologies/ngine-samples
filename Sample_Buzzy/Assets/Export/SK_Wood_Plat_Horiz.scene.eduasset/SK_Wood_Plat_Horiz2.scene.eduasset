@@ -1,0 +1,89 @@
+{
+    "guid": "8FAE8961-C459-4D7F-8413-92F35330B2AC",
+    "children": [
+        {
+			"typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+			"9f750482-b822-4d4b-be6a-9c135c614328": {
+				"stages": [
+					"bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+					"dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+				]
+			},
+			"de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+				"mesh": "4fc265d4-53af-94f6-06cb-f85efe51e24e",
+				"material_instance": "88239ac4-acdf-702c-a9be-ca994d863895"
+			},
+			"de8f8da2-d37f-41da-bc6e-580435fe605f": {
+				"position": [
+					0,
+					-0.75,
+					0
+				],
+				"scale": [
+					0.01
+				]
+			},
+			"data_components": [
+				{
+					"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+					"name": "SK_Wood_Plat_Horiz"
+				}
+			],
+			"instanceGuid": "1253afc4-ca2c-ec02-3fe8-7ce7162419b3"
+		},
+		{
+			"typeGuid": "01A96E72-3C81-4CFF-8642-46ABD7AABABD",
+			"instanceGuid": "96df7302-c5ea-4cfe-8bcb-630ac3bc1ab8",
+			"9f750482-b822-4d4b-be6a-9c135c614328": {
+				"stages": [
+					"BBA6AD40-E1EE-4F1E-BAF8-608FF9E7D77F"
+				]
+			},
+			"de8f8da2-d37f-41da-bc6e-580435fe605f": {
+				"position": [
+					0,
+					-0.75,
+					0
+				],
+				"rotation": [
+					0.0,
+					-0.0,
+					0.0
+				]
+			},
+			"data_components": [
+				{
+					"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+					"name": "Physics Body"
+				}
+			],
+			"children": [
+				{
+					"typeGuid": "508647CA-01F3-4930-9E33-4562692B719F",
+					"instanceGuid": "93f763fd-a157-4f63-aaef-b09152b1ab5c",
+					"508647ca-01f3-4930-9e33-4562692b719f": {
+						"mesh": "6cbda328-f65b-0245-764a-6d3d8b495e4d"
+					},
+					"10dceba7-be9f-4a9d-9902-6f51bed634ab": {},
+					"data_components": [
+						{
+							"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+							"name": "Physics Collider"
+						}
+					]
+				}
+			]
+		}
+    ],
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "8FAE8961-C459-4D7F-8413-92F35330B2AC"
+    },
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SK_Wood_Plat_Horiz"
+        }
+    ],
+    "instanceGuid": "7c6087e9-8fd6-2731-05f8-27590a864d43"
+}
