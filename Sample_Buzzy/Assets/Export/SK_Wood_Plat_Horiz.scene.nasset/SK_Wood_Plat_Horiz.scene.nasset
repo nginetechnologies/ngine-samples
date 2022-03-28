@@ -1,0 +1,157 @@
+{
+    "guid": "58b897bf-82b2-8c29-2339-d6a7fe83b4f0",
+    "source": "../SK_Wood_Plat_Horiz.fbx",
+    "children": [
+        {
+            "children": [
+                {
+                    "typeGuid": "e7a94bbc-9e75-47fe-8279-322b9f7a207f",
+                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                        "stages": [
+                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                        ]
+                    },
+                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                        "mesh": "4fc265d4-53af-94f6-06cb-f85efe51e24e",
+                        "material_instance": "88239ac4-acdf-702c-a9be-ca994d863895"
+                    },
+                    "e7a94bbc-9e75-47fe-8279-322b9f7a207f": {
+                        "skin": "2988081a-16da-1579-a13a-749d3ea5fb5a"
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "SK_Wood_Plat_Horiz"
+                        }
+                    ],
+                    "instanceGuid": "1253afc4-ca2c-ec02-3fe8-7ce7162419b3"
+                },
+                {
+                    "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+                    "instanceGuid": "796865bb-bad6-498c-8750-b817fa2c61c3",
+                    "5f894dea-bac9-4b62-ab51-291dccd451a0": {
+                        "joint": "e23b944a-3fbd-567b-72b9-d8a276d43a1a"
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Skeleton Joint"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+                            "instanceGuid": "96df7302-c5ea-4cfe-8bcb-630ac3bc1ab8",
+                            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                "stages": [
+                                    "BBA6AD40-E1EE-4F1E-BAF8-608FF9E7D77F"
+                                ]
+                            },
+                            "f05a46e2-8d45-44f3-aab1-e5940e229738": {
+                                "kinematic": true
+                            },
+                            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                                "rotation": [
+                                    90.0349,
+                                    -0.0,
+                                    0.0
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Physics Body"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+                                    "instanceGuid": "93f763fd-a157-4f63-aaef-b09152b1ab5c",
+                                    "508647ca-01f3-4930-9e33-4562692b719f": {
+                                        "mesh": "6cbda328-f65b-0245-764a-6d3d8b495e4d"
+                                    },
+                                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {},
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Physics Collider"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
+            "f6140603-c29e-4bf9-946d-498dba6709ff": {
+                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649",
+                "controller": {
+                    "typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+                    "animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
+                }
+            },
+            "instanceGuid": "2bd02e9a-ab08-bb75-078b-e3df854f2ece",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skeleton"
+                }
+            ]
+        },
+        {
+            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
+            "instanceGuid": "6dcb560c-9afa-8443-eb27-e513dec080cb",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skeleton"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "e7a94bbc-9e75-47fe-8279-322b9f7a207f",
+                    "instanceGuid": "d1ef6fc2-8cd9-13e4-ff41-3c2828327682",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "SK_Wood_Plat_Horiz"
+                        }
+                    ],
+                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                        "stages": [
+                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                        ]
+                    },
+                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                        "mesh": "4fc265d4-53af-94f6-06cb-f85efe51e24e",
+                        "material_instance": "88239ac4-acdf-702c-a9be-ca994d863895"
+                    },
+                    "e7a94bbc-9e75-47fe-8279-322b9f7a207f": {
+                        "skin": "2988081a-16da-1579-a13a-749d3ea5fb5a"
+                    }
+                }
+            ],
+            "f6140603-c29e-4bf9-946d-498dba6709ff": {
+                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649",
+                "controller": {
+                    "typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+                    "animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
+                }
+            }
+        }
+    ],
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "58b897bf-82b2-8c29-2339-d6a7fe83b4f0"
+    },
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SK_Wood_Plat_Horiz"
+        }
+    ],
+    "instanceGuid": "7c6087e9-8fd6-2731-05f8-27590a864d43"
+}
