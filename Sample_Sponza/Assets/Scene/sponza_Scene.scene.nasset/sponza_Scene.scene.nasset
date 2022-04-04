@@ -1,0 +1,63 @@
+{
+    "guid": "37187c20-f7c5-ee89-f891-77c3aa322ebe",
+    "source": "../sponza_Scene.fbx",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "5853fcfa-42d3-22c1-8b9a-332e5fa919c5",
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "sponza_Scene"
+        }
+    ],
+    "children": [
+        {
+            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+            "instanceGuid": "5ddbfa8c-8470-05a9-eb01-6c28c60fe6c2",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "SM_SponaAtrium"
+                }
+            ],
+            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+                "scene": "983e3467-aa3a-aaf7-b979-f3c402557525"
+            }
+        },
+        {
+            "typeGuid": "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e",
+            "instanceGuid": "8a78e058-955e-2425-5c22-cbdf69805621",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Sun"
+                }
+            ],
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "rotation": [
+                    109.4056,
+                    18.4299,
+                    -112.8712
+                ],
+                "scale": [
+                    100.0
+                ]
+            },
+            "9f750482-b822-4d4b-be6a-9c135c614328": {
+                "stages": [
+                    "f141b823-5844-4fbc-b106-0635ff52199c",
+                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                ]
+            },
+            "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e": {
+                "color": [
+                    2.49
+                ],
+                "cascades": 4,
+                "cascade_quality": 0.9498
+            }
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "37187c20-f7c5-ee89-f891-77c3aa322ebe"
+    }
+}
