@@ -86,19 +86,19 @@
             ],
             "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
             "f6140603-c29e-4bf9-946d-498dba6709ff": {
-                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649",
-                "controller": {
-                    "typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
-                    "animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
-                }
+                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649"
             },
             "instanceGuid": "2bd02e9a-ab08-bb75-078b-e3df854f2ece",
             "data_components": [
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                     "name": "Skeleton"
-                }
-            ]
+                },
+				{
+					"typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+					"animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
+				}
+			]
         },
         {
             "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
@@ -135,12 +135,14 @@
                 }
             ],
             "f6140603-c29e-4bf9-946d-498dba6709ff": {
-                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649",
-                "controller": {
-                    "typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
-                    "animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
-                }
-            }
+                "skeleton": "e17c3578-832c-5720-cb71-9229919c2649"
+            },
+            "data_components": [
+				{
+					"typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+					"animation": "a4d154ca-7b6f-6e82-1cc3-3b2ee096c9de"
+				}
+			]
         }
     ],
     "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",

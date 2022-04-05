@@ -80,10 +80,14 @@
 							],
 							"children": [
 								{
-									"instanceGuid": "{97B785BE-3829-4440-810F-2B7BC94B70E5}",
-									"f6140603-c29e-4bf9-946d-498dba6709ff": {
-										"controller": {
-											"typeGuid": "E5E2C08B-0844-422A-9EF8-83629288CC54",
+									"instanceGuid": "97B785BE-3829-4440-810F-2B7BC94B70E5",
+									"data_components": [
+										{
+											"typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+											"templateInstanceGuid": "bba39ccb-27d6-e8b2-8d93-46221860c9b8"
+										},
+										{
+											"typeGuid": "E5E2C08B-0844-422A-9EF8-83629288CC54", 
 											"move_animations": [
 												"8037574e-40ef-e1b2-336d-92a6eb7adef2",
 												"00db0137-72bd-4d1f-9511-eb824757ba15",
@@ -94,12 +98,6 @@
 												"8ebc36da-b42b-e486-3b6d-3fd5217e3d06",
 												"9f8f19fe-2279-41e3-e8eb-9eba45a4fef2"
 											]
-										}
-									},
-									"data_components": [
-										{
-											"typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-											"templateInstanceGuid": "bba39ccb-27d6-e8b2-8d93-46221860c9b8"
 										}
 									]
 								}
@@ -139,8 +137,14 @@
 						}
 					]
 				}
-			]
-		}	
+			],
+			"data_components": [
+				{
+					"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+					"name": "Player Character"
+				}
+			]	
+		}
     ],
     "data_components": [
         {
