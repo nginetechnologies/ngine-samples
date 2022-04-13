@@ -11,32 +11,28 @@
             "instanceGuid": "435910ac-f369-8c63-c824-40b5e2b1d7f7",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "scale": [
-                    0.999755859375
+                    1.0
                 ]
             },
             "data_components": [
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "ROOT_Calibration"
+                    "name": "ROOT_Shader"
                 }
             ],
             "children": [
                 {
                     "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
                     "instanceGuid": "007ee408-9c9e-7c60-7f9e-f7938ba3280c",
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "2d32e8fe-ed8d-5b8f-29ac-b697ee12610f"
-                    },
                     "data_components": [
                         {
                             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "GRP_Calibration"
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "fdb8bfba-43e9-e556-110b-69374cbf513a"
+                            "name": "GRP_Shader"
                         }
-                    ]
+                    ],
+                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+                        "scene": "18131c0b-0f2a-c8d9-3444-4f9e8d50497f"
+                    }
                 }
             ]
         },
@@ -50,18 +46,15 @@
                     2.9938840866088869
                 ],
                 "rotation": [
-                    -45.00042724609375,
+                    -45.0000114440918,
                     0.0,
                     0.0
-                ],
-                "scene_query_channels": [
-                    "13ca71b8-d868-4f7c-a0bb-c7585db11327"
                 ]
             },
             "9f750482-b822-4d4b-be6a-9c135c614328": {
                 "stages": [
-                    "dfca0ef8-eded-4660-8adb-43c0aa8f4e60",
-                    "f141b823-5844-4fbc-b106-0635ff52199c"
+                    "f141b823-5844-4fbc-b106-0635ff52199c",
+					"DFCA0EF8-EDED-4660-8ADB-43C0AA8F4E60"
                 ]
             },
             "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e": {
@@ -81,62 +74,58 @@
                 }
             ]
         },
-        {
-            "typeGuid": "7be15c72-f784-4f5e-b895-7cc2fbef6355",
-            "instanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -25.14043617248535,
-                    55.68600082397461,
-                    11.304795265197754
-                ],
-                "rotation": [
-                    -45.00042724609375,
-                    0.0,
-                    0.0
-                ],
-                "scene_query_channels": [
-                    "13ca71b8-d868-4f7c-a0bb-c7585db11327"
-                ]
-            },
-            "9f750482-b822-4d4b-be6a-9c135c614328": {
-                "stages": [
+		{
+			"typeGuid": "7be15c72-f784-4f5e-b895-7cc2fbef6355",
+			"instanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032",
+			"de8f8da2-d37f-41da-bc6e-580435fe605f": {
+				"position": [
+					-25.14043617248535,
+					55.68600082397461,
+					11.304795265197754
+				],
+				"rotation": [
+					-45.0000114440918,
+					0.0,
+					0.0
+				]
+			},
+			"9f750482-b822-4d4b-be6a-9c135c614328": {
+				"stages": [
+					"dfca0ef8-eded-4660-8adb-43c0aa8f4e60",
                     "f141b823-5844-4fbc-b106-0635ff52199c"
-                ]
-            },
-            "7be15c72-f784-4f5e-b895-7cc2fbef6355": {
-                "radius": 40.0,
-                "irradiance": "3888781d-1339-1580-e2fe-27d24779b47f",
-                "brdf": "0d4c3df5-f444-5e79-391a-5a330ab2f01d",
-                "prefiltered": "724a9ae5-62d5-0245-f60c-9bea02415590"
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Environment Light",
-                    "flags": 2
-                }
-            ]
-        },
+				]
+			},
+			"7be15c72-f784-4f5e-b895-7cc2fbef6355": {
+				"radius": 40.0,
+				"irradiance": "{D54D7A2B-3923-44A0-9DE4-D71B080F5414}",
+				"brdf": "{2BCE97E5-0497-4BD7-87C8-7F6928E8FE37}",
+				"prefiltered": "{699684BE-374E-41FC-B502-BDBEDBCB302D}"
+			},
+			"data_components": [
+				{
+					"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+					"name": "Environment Light",
+					"flags": 2
+				}
+			]
+		},
         {
             "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
             "instanceGuid": "f695b7d2-b906-4085-5b54-71c0ed7599b6",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "scale": [
-                    10
-                ],
-                "scene_query_channels": [
-                    "13ca71b8-d868-4f7c-a0bb-c7585db11327"
+                    5.0
                 ]
             },
             "9f750482-b822-4d4b-be6a-9c135c614328": {
                 "stages": [
-                    "BBA6AD40-E1EE-4F1E-BAF8-608FF9E7D77F"
+                    "86d22670-1f09-4246-ae43-ef7f1b16c977",
+                    "d3b37153-2dce-4574-a8f1-f118df0e8e30"
                 ]
             },
             "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
                 "mesh": "540e608c-9479-123a-f12e-3cf1b42de797",
-                "material_instance": "5a3f18e7-4fe4-48d0-b937-e1ba7c24999b"
+                "material_instance": "61327e65-3e13-4c49-bdac-3c9e90cf4ff1"
             },
             "data_components": [
                 {
@@ -144,77 +133,29 @@
                     "name": "Skysphere"
                 }
             ]
-        },
-        {
-            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
-            "instanceGuid": "1b5d4a83-287b-104c-7605-86fac169fbe0",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -20.10757064819336,
-                    -10.97745418548584,
-                    0.18284964561462403
-                ],
-                "rotation": [
-                    -89.9994125366211,
-                    -0.0,
-                    0.0
-                ],
-                "scale": [
-                    0.9995098114013672,
-                    0.999506950378418,
-                    0.999506950378418
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dragged asset"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "a7ff30ca-7ab1-e836-989b-837d096e7872"
-                    },
-                    "data_components": [
-                        {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Imported asset"
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ca39e42c-ff25-0fae-90ad-340bc95086a9"
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "default_camera": {
         "position": [
-            -17.93021583557129,
-            -33.980690002441409,
-            8.537611961364746
+            6.377793788909912,
+            -0.25601935386657717,
+            4.716098785400391
         ],
         "rotation": [
-            -1.895164132118225,
-            -0.0000036018575428897749,
-            -2.379138708114624
+            -6.909701824188232,
+            -0.0,
+            71.09661102294922
         ],
-        "nearPlane": 0.01,
+        "fieldOfView": 60.00000381469727,
+        "nearPlane": 0.001,
         "farPlane": 128.0
     },
     "grid": {
-        "position": [
-            -20.10757064819336,
-            -10.97745418548584,
-            0.18284964561462403
-        ],
         "scale": [
             1.0,
             -1.0,
             1.0
         ]
-    }
+    },
+    "thumbnailGuid": "a9a50dbb-7bba-d050-862c-e870af735f93"
 }
