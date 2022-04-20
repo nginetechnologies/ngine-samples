@@ -34,12 +34,12 @@
                     "instanceGuid": "4ca540b9-a73b-41c2-b993-0a546cb6cb62",
                     "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                         "position": [
-                            0.0,
-                            -5.0173,
-                            3.8159
+                            0,
+                            -6,
+                            2
                         ],
                         "rotation": [
-                            -20.0053,
+                            -20,
                             0.0,
                             0.0
                         ]
@@ -53,6 +53,12 @@
                         {
                             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                             "name": "Camera"
+                        },
+                        {
+                            "typeGuid": "0d3920f0-883f-41fc-bf30-2079a383cb27",
+                            "rotationSpeed": 20.0,
+                            "positionSpeed": 2.0,
+                            "verticalStep": 1.0,
                         }
                     ]
                 },
@@ -143,33 +149,6 @@
                                             "templateInstanceGuid": "bba39ccb-27d6-e8b2-8d93-46221860c9b8"
                                         }
                                     ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "0d3920f0-883f-41fc-bf30-2079a383cb27",
-                            "instanceGuid": "57d7dfaa-14d0-4adc-aaf4-65eaf7a582b6",
-                            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                                "position": [
-                                    0.0,
-                                    -6.0,
-                                    2.0
-                                ],
-                                "rotation": [
-                                    -20.0,
-                                    0.0,
-                                    0.0
-                                ]
-                            },
-                            "0d3920f0-883f-41fc-bf30-2079a383cb27": {
-                                "rotationSpeed": 20.0,
-                                "positionSpeed": 2.0,
-                                "verticalStep": 1.0
-                            },
-                            "data_components": [
-                                {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Camera Controller"
                                 }
                             ]
                         },
