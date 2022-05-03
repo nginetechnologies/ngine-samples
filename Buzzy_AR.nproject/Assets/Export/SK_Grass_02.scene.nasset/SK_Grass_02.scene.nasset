@@ -1,0 +1,59 @@
+{
+    "guid": "e0199645-52f7-b2af-476f-379a2d9cf81b",
+    "source": "../SK_Grass_02.fbx",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "6a747322-14d3-3b9a-6a36-a6a494c2fd53",
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SK_Grass_02"
+        }
+    ],
+    "children": [
+        {
+            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
+            "instanceGuid": "48d0ceeb-fb2e-e79b-0f80-57f892d1d7dd",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skeleton"
+                },
+				{
+					"typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+					"animation": "5cb7482f-58b1-8e2a-94ce-ecf89df5b3f6"
+				}
+            ],
+            "children": [
+                {
+                    "typeGuid": "e7a94bbc-9e75-47fe-8279-322b9f7a207f",
+                    "instanceGuid": "fab0155a-ccb3-54ff-dd9b-c63b01623f72",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "SK_Grass_02"
+                        }
+                    ],
+                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                        "stages": [
+                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                        ]
+                    },
+                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                        "mesh": "d67ca07d-b996-3af7-16f0-83c4c374529b",
+                        "material_instance": "a2a93a85-9017-6724-1ec3-491d706f03e9"
+                    },
+                    "e7a94bbc-9e75-47fe-8279-322b9f7a207f": {
+                        "skin": "c7966757-d94f-034a-8de4-c12de38cb7c9"
+                    }
+                }
+            ],
+            "f6140603-c29e-4bf9-946d-498dba6709ff": {
+                "skeleton": "f886868e-4415-59ee-62a3-2b5e8753d7aa"
+            }
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "e0199645-52f7-b2af-476f-379a2d9cf81b"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "guid": "5a1e2ae4-0e21-2fc8-9671-e3e798a38778",
+    "source": "../SK_Flower_Daisy_Orange.fbx",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "81e054fa-d5d3-6631-a00d-0b6d4f217420",
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SK_Flower_Daisy_Orange"
+        }
+    ],
+    "children": [
+        {
+            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
+            "instanceGuid": "90fcde4d-11af-9bb1-c985-7c48bcc84462",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skeleton"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "e7a94bbc-9e75-47fe-8279-322b9f7a207f",
+                    "instanceGuid": "247aa235-157d-8343-a53e-6cd15c55ee88",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "SK_Flower_Daisy_Orange"
+                        }
+                    ],
+                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                        "stages": [
+                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                        ]
+                    },
+                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                        "mesh": "7665366e-ae04-6a7e-e11b-4498f688ad4a",
+                        "material_instance": "a2a93a85-9017-6724-1ec3-491d706f03e9"
+                    },
+                    "e7a94bbc-9e75-47fe-8279-322b9f7a207f": {
+                        "skin": "593ae61f-cfb9-8c4f-763d-691c0f09e545"
+                    }
+                }
+            ],
+            "f6140603-c29e-4bf9-946d-498dba6709ff": {
+                "skeleton": "ad6ec6a2-3971-d8e1-7dd5-34b3c238db41"
+            }, 
+			"data_components": [
+				{
+					"typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+					"animation": "96ca5c09-f1f9-82b6-1f82-f04732054009"
+				}
+			]
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "5a1e2ae4-0e21-2fc8-9671-e3e798a38778"
+    }
+}
