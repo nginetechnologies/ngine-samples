@@ -1,15 +1,42 @@
 {
     "guid": "9462dc43-b43f-f750-f799-9ef42c3840cd",
-    "source": "../SK_Coin.fbx",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "c8367fd1-fc51-cc37-b33d-07065256b029",
+    "2a2bce0a-6314-481b-a5a0-7d01e1c00b35": {
+        "radius": 1024.0
+    },
+    "data_components": [
+        {
+            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+            "name": "SK_Coin"
+        }
+    ],
     "children": [
         {
+            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
+            "instanceGuid": "9ff95fbc-07ee-d8a0-c610-e7b6892eb273",
+            "f6140603-c29e-4bf9-946d-498dba6709ff": {
+                "skeleton": "baa62812-9183-02c9-6184-3a975eade918"
+            },
+            "data_components": [
+                {
+                    "typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
+                    "animation": "3125ba74-8540-4cd0-3973-906006f3a91f"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skeleton"
+                }
+            ],
             "children": [
                 {
                     "typeGuid": "e7a94bbc-9e75-47fe-8279-322b9f7a207f",
+                    "instanceGuid": "5dbef600-ca8c-6764-3d44-e3618fd6ffd1",
                     "9f750482-b822-4d4b-be6a-9c135c614328": {
                         "stages": [
+                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60",
                             "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
-                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                            "86d22670-1f09-4246-ae43-ef7f1b16c977"
                         ]
                     },
                     "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
@@ -21,39 +48,85 @@
                     },
                     "data_components": [
                         {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                            "mask": [
+                                "13ca71b8-d868-4f7c-a0bb-c7585db11327"
+                            ]
+                        },
+                        {
                             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                             "name": "SK_Coin"
                         }
                     ],
-                    "instanceGuid": "5dbef600-ca8c-6764-3d44-e3618fd6ffd1"
+                    "children": [
+                        {
+                            "typeGuid": "97f5d985-8b59-4864-82d8-0856b85b8c68",
+                            "instanceGuid": "0b970579-92dd-a8c9-da7c-9d527e9df1de",
+                            "ac11f104-0d79-4ecf-bae5-dbbbb344ad19": {
+                                "type": 0,
+                                "layer": 3,
+                                "body_flags": 1
+                            },
+                            "183d677a-b427-4b1d-a276-97b3e6681304": {
+                                "mask": [
+                                    "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Collectible Component"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                                    "instanceGuid": "8093f53f-9b20-5469-4ff7-61e1d5232b3a",
+                                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                                    },
+                                    "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                                        "half_extent": [
+                                            0.5
+                                        ]
+                                    },
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Box Collider"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-            ],
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Skeleton"
-                },
-				{
-					"typeGuid": "ada8de9b-70b3-4e23-8cc8-60febac91165",
-					"animation": "3125ba74-8540-4cd0-3973-906006f3a91f"
-				}
-            ],
-            "typeGuid": "f6140603-c29e-4bf9-946d-498dba6709ff",
-            "f6140603-c29e-4bf9-946d-498dba6709ff": {
-                "skeleton": "baa62812-9183-02c9-6184-3a975eade918"
-            }, 
-            "instanceGuid": "9ff95fbc-07ee-d8a0-c610-e7b6892eb273"
+            ]
         }
     ],
-    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "default_camera": {
+        "position": [
+            2.9284,
+            -2.9288,
+            2.3908
+        ],
+        "rotation": [
+            -28.8252,
+            -0.0004,
+            51.0336
+        ],
+        "fieldOfView": 60.0,
+        "nearPlane": 0.0099,
+        "farPlane": 128.0
+    },
+    "grid": {
+        "scale": [
+            1.0,
+            -1.0,
+            1.0
+        ]
+    },
     "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
         "scene": "9462dc43-b43f-f750-f799-9ef42c3840cd"
-    },
-    "data_components": [
-        {
-            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-            "name": "SK_Coin"
-        }
-    ],
-    "instanceGuid": "c8367fd1-fc51-cc37-b33d-07065256b029"
+    }
 }
