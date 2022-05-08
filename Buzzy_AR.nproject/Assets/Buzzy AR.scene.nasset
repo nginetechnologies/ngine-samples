@@ -4199,7 +4199,12 @@
                     0.0
                 ],
                 "cascades": 4,
-                "cascade_quality": 0.3
+                "cascade_distances": [
+					6,
+					12,
+					32,
+					60
+				]
             },
             "data_components": [
                 {
@@ -4299,7 +4304,7 @@
             61.3678
         ],
         "fieldOfView": 60.0,
-        "nearPlane": 0.001,
+        "nearPlane": 0.1,
         "farPlane": 128.0
     },
     "grid": {
