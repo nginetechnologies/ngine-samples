@@ -4125,6 +4125,32 @@
                 }
             ]
         },
+		{
+			"typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+			"instanceGuid": "{0E4D8BF4-8A92-4865-ADB2-D7FBE6C68980}",
+			 "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+				"scale": [
+					100,
+					100,
+					1
+				]
+			},
+			"9f750482-b822-4d4b-be6a-9c135c614328": {
+				"stages": [
+					"BBA6AD40-E1EE-4F1E-BAF8-608FF9E7D77F"
+				]
+			},
+			"de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+				"mesh": "7fa427c1-e00c-4a9c-b42f-93110fe1deff",
+				"material_instance": "1EEF894C-C736-4A7C-B94F-E5A9AC5ECA24"
+			},
+			"data_components": [
+				{
+					"typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+					"name": "Shadow Mesh"
+				}
+			]
+		},
         {
             "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
             "instanceGuid": "c279f3ae-1101-14ae-03e5-5bacf4ffe585",
@@ -4173,7 +4199,12 @@
                     0.0
                 ],
                 "cascades": 4,
-                "cascade_quality": 0.9499
+                "cascade_distances": [
+					6,
+					12,
+					32,
+					60
+				]
             },
             "data_components": [
                 {
@@ -4211,9 +4242,9 @@
             },
             "7be15c72-f784-4f5e-b895-7cc2fbef6355": {
                 "radius": 40.0,
-                "irradiance": "d54d7a2b-3923-44a0-9de4-d71b080f5414",
-                "brdf": "2bce97e5-0497-4bd7-87c8-7f6928e8fe37",
-                "prefiltered": "699684be-374e-41fc-b502-bdbedbcb302d"
+                "irradiance": "0189facb-9813-b927-e4bf-59777b6cabd8",
+                "brdf": "9e2a793b-8ff7-f993-25ab-f3f4542f5cfb",
+                "prefiltered": "0ad0d9fa-4d06-48e2-fa41-5589ee877ed6"
             },
             "data_components": [
                 {
@@ -4273,7 +4304,7 @@
             61.3678
         ],
         "fieldOfView": 60.0,
-        "nearPlane": 0.001,
+        "nearPlane": 0.1,
         "farPlane": 128.0
     },
     "grid": {
