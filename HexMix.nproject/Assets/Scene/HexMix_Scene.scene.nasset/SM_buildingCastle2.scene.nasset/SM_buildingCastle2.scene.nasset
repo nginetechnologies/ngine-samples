@@ -1,0 +1,383 @@
+{
+    "guid": "1d0b3065-0f45-2c72-b73c-c1fc59d7c64f",
+    "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "f7cb42fc-0e55-ad21-5494-3a3f47f4e633",
+    "children": [
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "98e568aa-3ad2-6a2a-65fa-f58a8077b764",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_Wool"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "e7c4e289-3edf-2e9f-37f3-ea808ad9dae7",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "f4ed17ad-eb82-6a77-b45f-536e8103bf24",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "78d50e38-aeaf-c5fb-ec75-634e95eb2548",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "c13335ac-6f27-b614-ea34-85664b3c0b0a",
+                                        "material_instance": "b1ca679e-23e3-68fd-5404-eb897918d9a2"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "c13335ac-6f27-b614-ea34-85664b3c0b0a"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "5ac7d807-9ad8-0bc4-c728-9004a53c61d8",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_Dirt-13"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "794f514a-70fb-7b15-26a8-b4d79743a733",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "4bacdec3-7818-a17c-8b42-c79e75b7a415",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "0a21fe5a-7edb-071a-38a9-3983abe3eb76",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "c3efbbf8-05e2-b01c-7c1a-93e2e3014128",
+                                        "material_instance": "fa5269e3-10b8-3850-3292-ab31d9ba8206"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "c3efbbf8-05e2-b01c-7c1a-93e2e3014128"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "dca9a1fc-331f-284c-7852-d991bbdc7fe9",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_Stone-5"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "831dd0a1-ee80-5415-dbd3-b297fbd12301",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "91df3d93-f486-1b64-a535-a2eb0c955ed8",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "ad9becf1-228b-2185-fc5a-b9df0de5ed29",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "72b8affb-69d4-2eb5-d83c-fb0c4e78e5ca",
+                                        "material_instance": "54653b8a-66c3-b834-2d1f-bd9154fb2952"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "72b8affb-69d4-2eb5-d83c-fb0c4e78e5ca"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "d317dede-b2ff-85cf-382b-0cefecb0acec",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_stoneDark"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "3fd66973-469f-621b-ab7c-5c8bf9e68b49",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "528984bd-30ff-ba4e-980b-20717389f7e9",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "8a7acd1b-619e-f0bd-8736-274b7b597d87",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "2fd3ef31-08c1-5b20-d672-3e648acab5db",
+                                        "material_instance": "ddbffcb6-f3b4-01bb-4907-a3a8c2275c6a"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "2fd3ef31-08c1-5b20-d672-3e648acab5db"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "5af55461-04ad-610f-54aa-e5468df06080",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_Foliage-6"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "7eed462b-91e5-9ae4-98d6-c83933c30f48",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "f5498f4b-2523-acda-0d0f-d1e157596449",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "07586368-5a8b-41a0-11b5-6c4329882a5a",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "7b70a1ff-8f98-e502-8700-cb652ca94533",
+                                        "material_instance": "db945bf9-bfdc-d8c5-661b-2081d53e5b88"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "7b70a1ff-8f98-e502-8700-cb652ca94533"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
+            "instanceGuid": "04b10038-8ec8-ebb7-de50-0e31e375f65a",
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "M_Wood-11"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "01a96e72-3c81-4cff-8642-46abd7aababd",
+                    "instanceGuid": "b83b72db-e87c-3587-630d-98a1160f8d31",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Physics Body"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
+                            "instanceGuid": "e7684201-1f20-1516-3a8d-aead6fca9b68",
+                            "data_components": [
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh Collider"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
+                                    "instanceGuid": "274caf2d-39d1-ba06-a3a9-385a4b197519",
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Mesh"
+                                        }
+                                    ],
+                                    "9f750482-b822-4d4b-be6a-9c135c614328": {
+                                        "stages": [
+                                            "bba6ad40-e1ee-4f1e-baf8-608ff9e7d77f",
+                                            "dfca0ef8-eded-4660-8adb-43c0aa8f4e60"
+                                        ]
+                                    },
+                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
+                                        "mesh": "57060eaf-18aa-0e7e-f300-f693fc2bad8c",
+                                        "material_instance": "dcd66091-8cc5-6378-4e6e-3cb3d6cb6191"
+                                    }
+                                }
+                            ],
+                            "508647ca-01f3-4930-9e33-4562692b719f": {
+                                "mesh": "57060eaf-18aa-0e7e-f300-f693fc2bad8c"
+                            },
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "1d0b3065-0f45-2c72-b73c-c1fc59d7c64f"
+    }
+}
