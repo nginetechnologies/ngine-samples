@@ -1,14 +1,14 @@
 {
     "guid": "9052fa57-84df-4984-854d-686f1ad516af",
-    "typeGuid": "37deb13a-a642-4122-9880-3850f503d5fa",
-    "instanceGuid": "49c9aa9f-0094-8a48-3e54-b0e841976fd0",
+    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+    "instanceGuid": "32e9a0bc-8ab0-403b-b10f-53d5712560c8",
     "2a2bce0a-6314-481b-a5a0-7d01e1c00b35": {
         "radius": 1024.0
     },
     "data_components": [
         {
             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-            "name": "SM_Coin3"
+            "name": "Coin"
         }
     ],
     "children": [
@@ -17,9 +17,9 @@
             "instanceGuid": "b256f4c3-75f4-a141-c1f8-618e8d90e0ba",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "rotation": [
-                    0.0,
                     -0.0,
-                    84.195
+                    -0.0,
+                    165.1805
                 ]
             },
             "ac11f104-0d79-4ecf-bae5-dbbbb344ad19": {
@@ -28,16 +28,16 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Physics Body"
-                },
-                {
                     "typeGuid": "a718cdb2-ef62-47c4-a968-8862f78cc08c",
                     "rotation": [
                         200.0,
                         0.0,
                         0.0
                     ]
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Physics Body"
                 }
             ],
             "children": [
@@ -113,14 +113,14 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                                     "mask": [
                                         "13ca71b8-d868-4f7c-a0bb-c7585db11327"
                                     ]
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -131,14 +131,14 @@
     ],
     "default_camera": {
         "position": [
-            -9.7504,
-            -12.3961,
-            7.3463
+            -9.5401,
+            -12.4766,
+            6.7759
         ],
         "rotation": [
-            -24.7762,
+            -31.9686,
             -0.0,
-            -42.7668
+            -42.3833
         ],
         "fieldOfView": 60.0,
         "nearPlane": 0.1,
@@ -150,5 +150,9 @@
             -1.0,
             1.0
         ]
+    },
+    "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "9052fa57-84df-4984-854d-686f1ad516af"
     }
 }
